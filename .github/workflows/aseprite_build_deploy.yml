@@ -130,4 +130,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: aseprite/build/bin/Aseprite-${{ needs.create-release.outputs.release-tag }}-${{ runner.os }}.zip
           asset_name: Aseprite-${{ needs.create-release.outputs.release-tag }}-${{ runner.os }}.zip
-          tag: ${{ needs.create-release.outputs.releas
+          tag:  ${{ needs.create-release.outputs.release-tag }}
